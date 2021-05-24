@@ -1,6 +1,6 @@
 # Weather Station
 
-A Weather Station with OLED display and Temperature, Humidity, Atmospheric Pressure and Light sensors. Weather data and forecasts are fetched from OpenWeatherMap.org, sensor readings are shown on OLED display and uploaded to the [ThingSpeak IoT platform](https://thingspeak.com/). All coded in [MicroPython](https://micropython.org).
+A Weather Station with OLED display and Temperature, Humidity, Atmospheric Pressure and Light sensors. Weather data and forecasts are fetched from [OpenWeatherMap.org](https://openweathermap.org/), sensor readings are shown on OLED display and uploaded to the [ThingSpeak IoT platform](https://thingspeak.com/). All coded in [MicroPython](https://micropython.org).
 
 ## Hardware
 
@@ -44,6 +44,7 @@ I2C monochrome display (Yellow and Blue) with a resolution of 128x64 pixels with
 |:-:|:-:|:-:|
 |D5*|LOW|ON|
 |D5*|HIGH|OFF|
+
 (*) Pin D5 needs to be configured with **internal pull-up**
 
 ## Datasheets

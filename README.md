@@ -31,6 +31,7 @@ I2C monochrome display (Yellow and Blue) with a resolution of 128x64 pixels with
 
 ## Wiring
 
+![weather station wiring](images/weather_station.jpg)
 |ESP32 Pin|AM2320 Pin|BMP180 Pin|BH1750 Pin|OLED Pin|
 |:-:|:-:|:-:|:-:|:-:|
 |3V|1|VIN|VCC|VCC|
@@ -61,7 +62,7 @@ I2C monochrome display (Yellow and Blue) with a resolution of 128x64 pixels with
 #### Modules
 
 |Module|Description|Installation|
-|-|-|-|
+|:-|:-|:-|
 |machine|functions related to hardware|(builtin)|
 |network|network configuration|(builtin)|
 |ntptime|synchronize RTC time with NTP server|(builtin)|
@@ -79,7 +80,7 @@ I2C monochrome display (Yellow and Blue) with a resolution of 128x64 pixels with
 ### Configuration
 
 |Module|Variables|Description|
-|-|:-:|-|
+|:-|:-:|:-|
 |config|SCL_PIN & SDA_PIN|I2C clock and data Pin|
 |config|LED_PIN|Onboard LED Pin used as error indicator|
 |config|LED_ON & LED_OFF|Inverse logic on onboard LED|

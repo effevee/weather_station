@@ -103,7 +103,7 @@ I2C monochrome display (Yellow and Blue) with a resolution of 128x64 pixels with
 #### Functions
 
 |Function|Description|
-|:-:|-|
+|:-|:-|
 |show_error()|visual display of error condition - flashing onboard LED|
 |debug_on()|check if debugging is on - debug pin LOW|
 |connect_wifi()|connect the µcontroller to the local wifi network|

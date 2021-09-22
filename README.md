@@ -73,7 +73,7 @@ I2C monochrome display (Yellow and Blue) with a resolution of 128x64 pixels with
 |writer_minimal|writer for py fonts|https://github.com/peterhinch/micropython-font-to-py|
 |am2320|Aosong AM2320 I2C driver|https://github.com/mcauser/micropython-am2320|
 |bmp180|Bosch BMP180 I2C driver|https://github.com/micropython-IMU/micropython-bmp180|
-|bh1750|Mouser Electronics BH1750 driver|https://github.com/PinkInk/upylib/tree/master/bh1750|
+|bh1750|Mouser Electronics BH1750 I2C driver|https://github.com/PinkInk/upylib/tree/master/bh1750|
 |urequests|HTTP library|https://github.com/micropython/micropython-lib/tree/master/urequests
 
 
@@ -108,7 +108,7 @@ I2C monochrome display (Yellow and Blue) with a resolution of 128x64 pixels with
 |debug_on()|check if debugging is on - debug pin LOW|
 |connect_wifi()|connect the µcontroller to the local wifi network|
 |synchronize_rtc()|synchronize the date and time on the µcontroller to local time|
-|get_weather_data()|get current weather data and forcasts from OpenWeather.org|
+|get_weather_data()|get current weather data and forecasts from OpenWeather.org|
 |temperature_2_unit()|return temperature in the correct units (see config.FAHRENHEIT)|
 |get_sensor_readings()|get readings from all connected sensors|
 |load_pbm_image()|load a PBM (Portable Bitmap) image into the framebuffer of the OLED display|
